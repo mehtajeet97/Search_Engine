@@ -14,9 +14,9 @@ Basic NodeJS word search engine uses Trie as a Data Structure implemented using 
 
 5. Demo - Short Video explaining the execution of the project
 
-## Static Data (Input Files)
+## Input
 
-For the purpose of this project, static HTML documents about Animals have been used but it could easily be changed based on requirement. The files are placed in the [`input` directory](./input/).
+For the purpose of this project, static HTML documents about Animals have been used but it could easily be changed based on requirement. The files are placed in the [`input` directory](./input/) which is zipped and compressed.
 
 ## DSA - Data Structure & Algorithms
 
@@ -45,7 +45,7 @@ The data structure used for this project is a [Trie](https://en.wikipedia.org/wi
 
 Each key in the object has a `results` object that contains a key-value pair signifying the file name and number of times the word that is formed with the keys upto the current key has occurred. For the example above, the word formed at the key `e` would be `the`, and the `results` object tells us that the word has appeared twice and once in the files named `Horse - Wikipedia.html` and `Wolf - Wikipedia.html` respectively.
 
-### Creating the Trie
+### All about Trie
 
 The Trie preparation involves all the files in the input directory. The text in each file is cleaned as follows:
 
@@ -66,11 +66,11 @@ After this the list of words from the cleaned text for each file is added to the
    - If the filename of the current file already exists in the `results` Map, then we increment the value by 1
    - Else, we add a key as current file's name and value as 1
 
-### Searching the Trie
+### Trie Search
 
 Getting the results for a word is very similar to how we created the Trie. We take the word user inputs, convert it to lowercase and iterate over it. We look for a key in the Map for each letter starting from the first letter and move onto the value Map for every match. At any point if there is no match, we return an empty result set. Otherwise, we keep iterating till we reach the last letter, at which stage we get the `results` Map at that key and print that in form of a table with file names sorted in descending order of number of occurrences.
 
-## How to run
+## Follow below steps for Implementation
 
 This is NodeJS project. So before running the project, make sure you have NodeJS setup. You can see the steps [here](https://nodejs.org/en/).
 
