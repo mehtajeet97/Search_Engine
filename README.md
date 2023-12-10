@@ -8,7 +8,7 @@ Basic NodeJS word search engine uses Trie as a Data Structure implemented using 
 
 2. Code - The '.js' files primarily app.js and trie.js have the code
 
-3. Input - The folder 'input' which has been compressed and zipped contains multiple '.html' files which are used as input
+3. Input - The folder 'input' contains multiple '.html' files which are used as input
 
 4. Output - 'OUTPUT.md' file contains sample output obtained
 
@@ -74,14 +74,6 @@ Getting the results for a word is very similar to how we created the Trie. We ta
 
 This is NodeJS project. So before running the project, make sure you have NodeJS setup. You can see the steps [here](https://nodejs.org/en/).
 
-1. Double Tap on the 'input.zip' file or run the following command in the root directory:
-
-```
-unzip input.zip
-```
-
-This will provide the folder input which contains multiple .html files as input
-
 2. Install dependecies. From the root directory, run the following command:
 
 ```
@@ -107,7 +99,6 @@ $ npm start
 > node app.js
 
 Reading files from: /Users/jeetmehta/Downloads/Job_Search/Projects/Search_Engine/input
-✔ .DS_Store
 ✔ Ostrich - Wikipedia.html
 ✔ Horse - Wikipedia.html
 ✔ Wolf - Wikipedia.html
