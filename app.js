@@ -9,7 +9,7 @@ const readline = require("readline").createInterface({
 });
 const Trie = require("./trie");
 
-const filesDirectory = path.resolve("data");
+const filesDirectory = path.resolve("input");
 
 const readFileData = async (file) => {
   const data = await fs.readFile(path.join(filesDirectory, file), "utf-8");
