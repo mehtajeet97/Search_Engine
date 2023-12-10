@@ -14,6 +14,7 @@ Boundary Conditions:
 
 Testing :
 
+```
 $ npm start
 
 > search-engine@1.0.0 start
@@ -111,3 +112,4 @@ Search Result:
 └─────────┴────────────────────────────┴────────────┘
 
 Enter the word you want to searh (Enter ':q' to quit):
+```
