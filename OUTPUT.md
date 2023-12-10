@@ -27,89 +27,106 @@ Reading files from: /Users/jeetmehta/Downloads/Job_Search/Projects/Search_Engine
 ✔ Dog - Wikipedia.html
 ✔ Cheetah - Wikipedia.html
 
+
 Enter the word you want to searh (Enter ':q' to quit): ::
 
 Search Result:
 Not found
 
+
 Enter the word you want to searh (Enter ':q' to quit):
 
 Search Result:
 Not found
+
 
 Enter the word you want to searh (Enter ':q' to quit): telephone
 
 Search Result:
 Not found
 
+
 Enter the word you want to searh (Enter ':q' to quit): hello there
 
 Search Result:
 Not found
+
 
 Enter the word you want to searh (Enter ':q' to quit): how are you doing?
 
 Search Result:
 Not found
 
+
 Enter the word you want to searh (Enter ':q' to quit): hands
 
 Search Result:
 ┌─────────┬──────────────────────────┬────────────┐
-│ (index) │ File Name │ Occurrence │
+│ (index) │        File Name         │ Occurrence │
 ├─────────┼──────────────────────────┼────────────┤
-│ 0 │ 'Horse - Wikipedia.html' │ 22 │
+│    0    │ 'Horse - Wikipedia.html' │     22     │
 └─────────┴──────────────────────────┴────────────┘
+
 
 Enter the word you want to searh (Enter ':q' to quit): fastest
 
 Search Result:
 ┌─────────┬────────────────────────────┬────────────┐
-│ (index) │ File Name │ Occurrence │
+│ (index) │         File Name          │ Occurrence │
 ├─────────┼────────────────────────────┼────────────┤
-│ 0 │ 'Cheetah - Wikipedia.html' │ 10 │
-│ 1 │ 'Horse - Wikipedia.html' │ 3 │
-│ 2 │ 'Ostrich - Wikipedia.html' │ 1 │
+│    0    │ 'Cheetah - Wikipedia.html' │     10     │
+│    1    │  'Horse - Wikipedia.html'  │     3      │
+│    2    │ 'Ostrich - Wikipedia.html' │     1      │
 └─────────┴────────────────────────────┴────────────┘
+
 
 Enter the word you want to searh (Enter ':q' to quit): animal
 
 Search Result:
 ┌─────────┬────────────────────────────┬────────────┐
-│ (index) │ File Name │ Occurrence │
+│ (index) │         File Name          │ Occurrence │
 ├─────────┼────────────────────────────┼────────────┤
-│ 0 │ 'Dog - Wikipedia.html' │ 90 │
-│ 1 │ 'Horse - Wikipedia.html' │ 86 │
-│ 2 │ 'Wolf - Wikipedia.html' │ 48 │
-│ 3 │ 'Cheetah - Wikipedia.html' │ 43 │
-│ 4 │ 'Ostrich - Wikipedia.html' │ 12 │
+│    0    │   'Dog - Wikipedia.html'   │     90     │
+│    1    │  'Horse - Wikipedia.html'  │     86     │
+│    2    │  'Wolf - Wikipedia.html'   │     48     │
+│    3    │ 'Cheetah - Wikipedia.html' │     43     │
+│    4    │ 'Ostrich - Wikipedia.html' │     12     │
 └─────────┴────────────────────────────┴────────────┘
+
 
 Enter the word you want to searh (Enter ':q' to quit): Animal
 
 Search Result:
 ┌─────────┬────────────────────────────┬────────────┐
-│ (index) │ File Name │ Occurrence │
+│ (index) │         File Name          │ Occurrence │
 ├─────────┼────────────────────────────┼────────────┤
-│ 0 │ 'Dog - Wikipedia.html' │ 90 │
-│ 1 │ 'Horse - Wikipedia.html' │ 86 │
-│ 2 │ 'Wolf - Wikipedia.html' │ 48 │
-│ 3 │ 'Cheetah - Wikipedia.html' │ 43 │
-│ 4 │ 'Ostrich - Wikipedia.html' │ 12 │
+│    0    │   'Dog - Wikipedia.html'   │     90     │
+│    1    │  'Horse - Wikipedia.html'  │     86     │
+│    2    │  'Wolf - Wikipedia.html'   │     48     │
+│    3    │ 'Cheetah - Wikipedia.html' │     43     │
+│    4    │ 'Ostrich - Wikipedia.html' │     12     │
 └─────────┴────────────────────────────┴────────────┘
+
 
 Enter the word you want to searh (Enter ':q' to quit): aNIMAl
 
 Search Result:
 ┌─────────┬────────────────────────────┬────────────┐
-│ (index) │ File Name │ Occurrence │
+│ (index) │         File Name          │ Occurrence │
 ├─────────┼────────────────────────────┼────────────┤
-│ 0 │ 'Dog - Wikipedia.html' │ 90 │
-│ 1 │ 'Horse - Wikipedia.html' │ 86 │
-│ 2 │ 'Wolf - Wikipedia.html' │ 48 │
-│ 3 │ 'Cheetah - Wikipedia.html' │ 43 │
-│ 4 │ 'Ostrich - Wikipedia.html' │ 12 │
+│    0    │   'Dog - Wikipedia.html'   │     90     │
+│    1    │  'Horse - Wikipedia.html'  │     86     │
+│    2    │  'Wolf - Wikipedia.html'   │     48     │
+│    3    │ 'Cheetah - Wikipedia.html' │     43     │
+│    4    │ 'Ostrich - Wikipedia.html' │     12     │
 └─────────┴────────────────────────────┴────────────┘
 
-Enter the word you want to searh (Enter ':q' to quit):
+
+Enter the word you want to searh (Enter ':q' to quit): ::q
+
+Search Result:
+Not found
+
+
+Enter the word you want to searh (Enter ':q' to quit): :q
 ```
