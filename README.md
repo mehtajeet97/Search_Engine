@@ -74,7 +74,13 @@ Getting the results for a word is very similar to how we created the Trie. We ta
 
 This is NodeJS project. So before running the project, make sure you have NodeJS setup. You can see the steps [here](https://nodejs.org/en/).
 
-1. Install dependecies. From the root directory, run the following command:
+1. Unzip the input.zip file by running the following command in the root folder:
+
+```
+unzip input.zip
+```
+
+2. Install dependecies. From the root directory, run the following command:
 
 ```
 npm install
@@ -82,13 +88,13 @@ npm install
 
 This will install all the packages required to run this project. The list of dependencies can be seen in [`package.json`](./package.json)
 
-2. From the root directory, run the following command to start the application:
+3. From the root directory, run the following command to start the application:
 
 ```
 npm start
 ```
 
-3. To stop searching, and quit the application you can input `:q`
+4. To stop searching, and quit the application you can input `:q`
 
 ## Sample Output
 
