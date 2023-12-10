@@ -16,7 +16,7 @@ Basic NodeJS word search engine uses Trie as a Data Structure implemented using 
 
 ## Static Data (Input Files)
 
-For the purpose of this project, static HTML documents about Animals have been used but it could easily be changed based on requirement. The files are placed in the [`input` directory](./input/) which is zipped and needs to be unzipped prior to execution as detailed in the steps.
+For the purpose of this project, static HTML documents about Animals have been used but it could easily be changed based on requirement. The files are placed in the [`input` directory](./input/).
 
 ## DSA - Data Structure & Algorithms
 
@@ -74,7 +74,7 @@ Getting the results for a word is very similar to how we created the Trie. We ta
 
 This is NodeJS project. So before running the project, make sure you have NodeJS setup. You can see the steps [here](https://nodejs.org/en/).
 
-2. Install dependecies. From the root directory, run the following command:
+1. Install dependecies. From the root directory, run the following command:
 
 ```
 npm install
@@ -82,13 +82,13 @@ npm install
 
 This will install all the packages required to run this project. The list of dependencies can be seen in [`package.json`](./package.json)
 
-3. From the root directory, run the following command to start the application:
+2. From the root directory, run the following command to start the application:
 
 ```
 npm start
 ```
 
-To stop searching, and quit the application you can input `:q`
+3. To stop searching, and quit the application you can input `:q`
 
 ## Sample Output
 
