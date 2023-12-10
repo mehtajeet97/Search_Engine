@@ -8,7 +8,7 @@ Basic NodeJS word search engine uses Trie as a Data Structure implemented using 
 
 2. Code - The '.js' files primarily app.js and trie.js have the code
 
-3. Input - The folder 'input' contains multiple '.html' files which are used as input
+3. Input - The folder 'input' which is compressed and contains multiple '.html' files which are used as input
 
 4. Output - 'OUTPUT.md' file contains sample output obtained
 
